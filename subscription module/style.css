@@ -1,0 +1,153 @@
+.card {
+    background-color: whitesmoke;
+    height: 30rem;
+    width: 25rem;
+    border-radius: 0px;
+    transition: all 0.2s;
+    border-width: 1px 30px 0px 1px;
+    border-color: #f3d632;
+    background-color: beige;
+    float: left;
+}
+
+@media (max-width: 700px) {
+    .card {
+        height: 30rem;
+        width: 25rem;
+        border-width: 1px 30px 0px 1px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        height: 25rem;
+        width: 20rem;
+        border: 0.5px 0px 20px 0.5px;
+    }
+}
+
+@media (max-width :300px) {
+    .card {
+        height: 20rem;
+        width: 15rem;
+        border-width: 0.5px 10px 0px 0.5px;
+    }
+}
+
+
+
+#box {
+    border-right-width: 0;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    height: 60px;
+
+
+
+}
+
+@media(max-width:700px) {
+    .card-title {
+        font-size: large;
+        height: 60px;
+    }
+}
+
+@media(max-width:500px) {
+    .card-title {
+        font-size: medium;
+        height: 50px;
+    }
+}
+
+@media(max-width:300px) {
+    .card-title {
+        font-size: small;
+        height: 40px;
+    }
+}
+
+.rupees {
+    text-align: center;
+    background-color: rgb(224, 253, 255);
+}
+
+
+.rupees .starting {
+    font-weight: 700;
+}
+
+.rupees .inr {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+@media(max-width:700px) {
+    .rupees .inr {
+        font-size: 40px;
+    }
+}
+
+
+@media(max-width:700px) {
+    .rupees .inr {
+        font-size: 35px;
+    }
+}
+
+
+@media(max-width:700px) {
+    .rupees .inr {
+        font-size: 30px;
+    }
+}
+
+.rupees .feelink {
+    font-weight: 400;
+    font-size: small;
+    text-decoration: none;
+}
+
+.para {
+    font-size: small;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    margin-left: 30%;
+    padding-bottom: 20px;
+
+    font-weight: 500;
+    font-size: small;
+}
+
+footer {
+    text-decoration: none;
+}
+
+
+
+
+.card-body .ribbon {
+    width: 80px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+    background: #f3d632;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 210px;
+    top: 0px;
+    padding-top: 7px;
+    float: left;
+}
+
